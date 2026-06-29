@@ -1,0 +1,9 @@
+Model,Subset,AUC,Num_rows,Dataset,Baseline_AUC,Delta_AUC,Percent_Improvement
+Random Forest,Baseline (All data),0.578125,198,dataset1,0.578125,0.0,0.0
+Random Forest,Mean correlation > 25th percentile,0.6392,148,dataset1,0.578125,0.06107499999999999,10.564324324324323
+Random Forest,Mean correlation < 75th percentile,0.5397,148,dataset1,0.578125,-0.03842500000000004,-6.646486486486494
+Random Forest,Mean correlation 25th–75th percentile,0.4902,98,dataset1,0.578125,-0.08792499999999998,-15.208648648648646
+Logistic Regression,Baseline (All data),0.765625,198,dataset1,0.765625,0.0,0.0
+Logistic Regression,Mean correlation > 25th percentile,0.8125,148,dataset1,0.765625,0.046875,6.122448979591836
+Logistic Regression,Mean correlation < 75th percentile,0.672,148,dataset1,0.765625,-0.09362499999999996,-12.228571428571424
+Logistic Regression,Mean correlation 25th–75th percentile,0.3725,98,dataset1,0.765625,-0.393125,-51.34693877551021
